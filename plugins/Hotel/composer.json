@@ -1,0 +1,25 @@
+{
+    "name": "bookingcore/hotel",
+    "description": "",
+    "authors": [
+        {
+            "name": "BookingCore",
+            "email": "bookingcore.org@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plugins\\Hotel\\Providers\\HotelServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Hotel\\": ""
+        }
+    }
+}
